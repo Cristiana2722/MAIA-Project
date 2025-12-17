@@ -19,6 +19,19 @@ st.set_page_config(
 # CSS personalizat
 st.markdown("""
 <style>
+    .stApp {
+        background-color: #4d4a85;
+        color: #white;
+    }
+
+    [data-testid="stSidebar"] {
+        background-color: #706e9e;
+    }
+    
+    header { 
+        background-color: #29266d !important; 
+    }
+
     .main-header {
         font-size: 3rem;
         color: #1f77b4;
@@ -27,10 +40,10 @@ st.markdown("""
     }
     .sub-header {
         font-size: 1.8rem;
-        color: #2c3e50;
+        color: #b8b7ce;
         margin-top: 2rem;
         margin-bottom: 1rem;
-        border-bottom: 2px solid #3498db;
+        border-bottom: 2px solid #dbdbe7;
         padding-bottom: 0.5rem;
     }
     .success-box {
