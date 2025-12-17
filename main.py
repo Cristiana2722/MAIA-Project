@@ -20,12 +20,12 @@ st.set_page_config(
 st.markdown("""
 <style>
     .stApp {
-        background-color: #4d4a85;
+        background-color: #706e9e;
         color: #white;
     }
 
     [data-testid="stSidebar"] {
-        background-color: #706e9e;
+        background-color: #4d4a85;
     }
     
     header { 
